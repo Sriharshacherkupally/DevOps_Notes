@@ -1,0 +1,104 @@
+                          
+      ---> Clone repoistery cmd,gitbash both we can do?
+                  * Any command start with git is working by git.
+                  * Any command not start with git,it is not working by git.
+                  * Open(O),Read(R),Write(W)
+                      - cd d:
+                      - user\DE >d:
+                      - D:\> cd Demo
+                      - D:\>Demo>mkdir
+                      - D:\>Demo> cd
+                      - D:\>Demo\sriharsha
+                          * git clone <url>
+                          * >explorer. : Windows will be appear,including .git all will be open.
+                          * .git: See a lot of information i.e it contains our metadata.
+                          * Git in root,git will take vthin repoistery,copy overall files in rootlevel.
+                          
+                          * Git will create a workarea(where we will work on files,update,rename,modify)
+                          * Copy all over files,now we can work in workarea,do any opertaions.
+                          * Change is done,please check my git respoistery and update it.
+                          * Git will not directly,we should convey to git to restore a new version of file,then we will update veersion.
+                                  - dir /a
+                                  print "Hello World"
+                          * git status : If any changes is happening, it will check in respoistery.
+                          * Untracked files : It will not track by git.
+                 ---Git workflow:
+                       * Clone--> do change modification/editing/deleting
+                            |
+                       add to a git
+                            |
+                       Commit it (cant directly commit )
+                            |
+                 There are happened in local things.
+                            |
+                   Git push to central repoistory
+         
+         central server----> .git---->Staging area
+            * Staging /Index area: logically area/not stored,physically
+            - New update add to staging area and commit 
+              * "git add <file>" to include in what will be commit.
+                * Syntax: git add <filename> from work area to staging area
+                          git add <sriharsha.txt>
+                          -File readme.txt will staged from workarea too staging area.
+                  -git add program.py (It will add only one)
+                  * .-add files where we using only specific files.
+                  * Editor-cmd prompt only.
+--> D:/Demo/2021101614/Sriharshs.git/commit_editing1
+-------INSERT---------
+    :q------QUIT
+    *  git: What changes is done that we can see
+    * Commit-Head in main.
+    * Author: and with<sriharsha36@gmail.com>
+    * date:wed 22
+    * gitpush : moving with own force,local server to remote/centralserver.
+    * git restore: Reset our workarea,ignore d files.
+    * git bucket: to save
+    * restore -h: to help
+    * git add -h: We see all files.
+    ---> gitlog: To used to read the history and to review of everything happens to a repoistory.
+               * authorname,timestamp,commit id,commit username.
+    ---> git config: It is used to set the git configuration values on global user.email/main,origin/head
+    ---> git clone <URL> only to local,add ur changes repoistry,only local copy of respority,push to d remote server.
+                -m(msg): modified readme file to add
+       git add
+    * Sink: for port to parent repoistery.
+    * git diff (show difference files a workarea existing version of respoistory)
+    - Old ,New deleted
+    -> git commit: -a,-m(new chnge in prgm .py)
+    * File must be underline/existed file
+    *  shrtcut for commmit/Existed/modified/updated, bu not d created files.
+    ---> Delete a file: git rn somefile.txt 
+    * commit -m for modify/update the repoistery.
+    * -m : mark for delete.
+    * git rm <filename.txt>
+    * eg: git rm <harsha.txt>
+   2/12/22 
+    * git --version
+    * git clone <url>
+    * ls
+    * change directory cd
+    * create the file (touch my new file.txt)
+    * git add (add filename which we created)
+    * git status
+    * git commit
+ --> git tag : Tags is generally used to capture a point in history that is used for a marked version release. A tag is like a branch that doesn't change.
+        Tags:
+             git tag -h : It will help to know more options.
+             git tag -a : In our repository we use Git Tags to tag which code is deployed on specific environment
+             git tag -l : In our repository which will list the tag of git commit.
+             git tag -d : It is used to deleted the tags.
+             git init : Intialize empty file.
+* How to add remote repositery as a origin?
+      Syntax: git remote add origin <URL of github repositery>
+      eg: git remote add origin <cherkupallysriharsha36@gmail.com>
+      
+  --> git fetch : Download a our metadata,it will keep only on .git folder.
+  -->  git pull : It will update the data.
+       * pull + fetch = push
+       --> git personal access token 
+          * profile--> Settings-->Developers setting-->Personal access tokens.
+          
+  --> 
+         
+                                
+                                

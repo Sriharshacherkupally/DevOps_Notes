@@ -1,0 +1,195 @@
+ ---> About DevOps:
+               DevOps is a combination Operations and development works together in Collabration.
+          -> It works of a lot of tools,to develop the projects.
+          -> Without cloud,we can generate cloud things.
+          -> Remove communication gap.
+          -> Without changes to built anything.
+          -> Streamlined deliveries,Teamwork Collabration,Continuous motionering,Feedback.
+          -> DevOps is a set of practices that combines software development and IT operations. 
+          -> It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. 
+          -> DevOps is complementary with Agile software development; several DevOps aspects came from the Agile way of working.
+                 Analyze--->Plan--->Design--->Build--->Test--->Depoly
+    * Operations Team: Develops a code upon production,store into server.                 
+    * Developers Team: They will develop applications,with client requirements.
+    * Depoly is done by Development team.
+    * It is stable.
+-->What is Server?
+    * To develop the code need own platform,and it is used by enduser.
+    * It stores sends and receive data in client servers.
+    -> Configure the files.
+    -> System (stores in our needs).
+ --> Challenges:
+         * Difficult to maintain.
+         * Infrastructure management and not effective.
+         * No.of servers to mointered increased.
+         * Difficult to diagonse and provide feedback on the product.
+         * Pressure of work on old,pending code.
+ --> Operations:
+         * System should be easily done.
+         * System should be up and running most timme.
+         * Effective monitoring.
+   --> Panacea DevOps:
+        >>> DEV CHALLENGES                                          
+           * Waiting time for code depolyment                       
+           * Pressure of work on old,pending and new code                                              
+        >>> DEVOPS SOLUTION    
+           * Contiouns intergation ensures quick depolyment faster testing and speedy feedback mecheanism.
+           * There is no waiting time to deploy the code,hence the developer focuses on building the current code.
+           * Impact the virutalization.
+           * Entire eye on infrastucture/application is fine.
+           * Server is fast.
+           * Stability in infrastructure.
+           * Good prepartions required.
+  --> What exactly is devops in real life?
+            (Plan----Code----Build----Test)----(Release----Depoly----Operate----Moniter)
+                           |                                      |
+           It is done by Development team             It is done by Operation team.
+  --> DevOps: What devops is not?
+           * Devops is not role,person,organisation.
+           * Devops is not a separate team.
+           * Devops is not aproduct or a tool.
+           * Devops is not about writing scrpits or implementing tools.
+           * Devops is a state of mind,not a product or not a tool.
+   --> What does Devops do?
+           * Intrgrates developers and operations team.
+           * Improves collabration and productivity by:
+               - Automating infrastructure
+               - Automating workflows
+               - Contiuosly measuring application performance
+    -->Benefits of Devops:
+                 - Cost avoidance
+                 - Accelerated innovation
+                 - Flexibility
+                 - Speed and Agility.
+                 - IT efficiency
+  09/11/22               
+    ---> Devops Adoption:
+             * Cultural Transformation: Top to bottom implementing cultural changes with devops.
+                                        Its is a long term process that requrie patience andendurance to maintain a postive atmosphere in the workplace changes being implemented.
+             * Process Transformation: It means challenging for companies follow specific guidelines for s/w development,as Devops doesnot have fixed framework starting produres that employess can follow reach their desird goal.
+             *Technology Transformation: The compaines require updated h/w n s/w system to performance issues instability,slow load,processing times nd security lapses.
+                                         They should br on regular basis,so new system cam co-exist vth existing systems.
+             *Automate Everything : It is esstenial since continous testing n development are necessary for smooth depolyment.
+                                    most of legancy tools n systems used by organization may not be conducive to automation nd collabration.
+             * Adoption tools: Dev n Ops teams have separatte toolsets nd metrics,it neccessary to integrate all tools properly to mmake testing depolyment n building all work 2ghter in a continuous manner.
+                 ---->DevOps current: 
+                                    * Alot of competation domain manufacturing nd fast development environment.
+                                    * All organisations adopt devOps used highly(%).
+                                    
+                 ----> Tools/skills:
+                                * TOOLS:Version control- GIT.
+                                        Continous integration- Jenkins.
+                                        Virtualzation- Docker
+                                        Configuration- Puppet/Ansible
+                                        Mointering- Nagios
+                                 * N/w: General n/w skills- Estabhlishing connection.
+                                 * Other skills: Ppl skills,process skills,customer,Empathy,cloud awareness.
+    ---->DevOPS Lifecycle:
+                         Plan: it is a 1stage,wr we can pllan,track,vizualization n summarize ur project be4 strting working it.
+                          Tools:JIRA,TRELLO,TRICENTIS.
+                         Build: It is pre  relase version n identufed by a buld no,rathet than by a release number.
+                            Tools: JENKINS,MAVEN,APACHE AWS ETC
+                         Test:Process of executing automated tests part of d s/w delivery| to obtain feedback on d business risks associated vth a s/w release as rapildly as possible.
+                             Tools:Jmeter,Junit,Se.
+                         Release:it helps to integrate code into shared repositry using u can detect n loccate error quickly n easily.
+                             tools: Gitlab,Bamboo,Travis CI
+                         Depoly:manage n maintain development n depolymant of s/w n servers in any computations environment.
+                             Tools:aws,chef,ansible.
+                         Operate: it is to keep d system upgraded vth d latest update.
+                              Tools:aws, ansible.
+                         Moniter: it ensures ie application is performing as desired m d environment is stable.it quuickly determines when a service is unavaible n understand d underlyng causes.
+                              Tools:Nagios,senxsu,splunk.
+        ---->DevOps stages:
+                           Developers----Version control/scm(git)---->continous testing(Se)---->continuous depolyment---->continuousMointering(Nagios)
+                               |                                                                   |                                            |
+                               |                                                                Virtualization                                  |
+                               |                                                                   |                                            |
+                               |                                                              Configuration Management(Ansible)                 |
+                               |----------------------------------------------------------------------------------------------------------------|
+                                                                                              (Feedback)                                            
+   
+   ---> Version Control/Source Management:?
+                  System that records changes to documents,compter prgms large websites n other collection of information over time.
+                    * There are types they are:
+                         -Centralised vcs
+                         -Distributed vcs
+                         
+ --> Continous Intergration : it required developers to integrates code into shared repoistery several times a day.By integrating regularly  u can detect errors quickly,n locate them more easily.
+                                     Develop-----Depoly-----Test
+                                      * Its is done GUI(Graphical user Interface)/UAP
+ --> Continous Depolyment: It required n test the code, it visualize d code as per requiredments d user will b done and configure the data/requirement.
+ --> Continous Mointering: It will mointerised the code and release nd get feedback by customers.
+ 
+---->DevOps Delivery pipeline:
+           -----version control-----build-----unit test-----depoly----auto test----depoly to production----measure n validate
+            |         |                |            |         |             |                    |
+            |                                                                                    |
+            |-------------------------------(production feedback)--------------------------------|
+  ---> Local vcs: It can't be collabration.
+  ---> Centralised vcs: It is simple just one repoistery globally n every user need to commit for reflecting one'schnges in repoistery.It is possible for others to see ur chnges by updating
+                        * SVN(Subversions),TFS(TeaM Foundation service)
+                        * Its works slow.
+                        * Entrie columns for compression.
+                        * Foucs on synchronzing,tracking n backup files.
+                        * Failure in central server terminates all versions.
+                        * no local repoisteries.
+  ---> Distributed vcs: It contain multiple users n respoiteries,each have as own resposirty n working copy.Multiple ppl work in single prject.
+     * It also enables one person 2 use multiple commputer to work on it valuble even it u r working by urself.
+     * Its works faster.
+     * Foucs on sharing chnges.
+     * columns as well as partial.
+     * Main server doesnt affect d development.
+     
+   ---> Benefits:
+     - Brings a local cpy of complete repository to every team,members cmputer so they can commit branch n merge locally.
+     - Doesnot store physical file for each branch.
+     - Its speed,workflow,compatibility,opensource foundation.
+  --> Need of vcs?
+            - A project work are an application,collabration,storing versions,figuringout what happenend,backup.
+            * Allow you to track each individual changes by each individual contributor each reserve.
+            * Helps prevent concurrent work from conflicting.
+            * Software supports & developers preferred work flow without imposing oneway of working.
+            * A single team product codebase working shared piece of code.
+            * Acesses to it.
+            * collaborate
+            * Concurrent(avoid)
+            * Tracking
+            * Backup
+            - the file stored in \projects\files in this folder.
+      ----> GIT:
+                 It is a open source distributed vcs,which records changes to the files laying on emphasis on speed,data intergity,distributed,non-linear wotkflows.
+      ---> Why GIT is?
+                      Its is popular control systems.
+                      *Apache-(Centralised)
+                      * Git- it allows teams worldwide used.
+                    -Benifits:
+                       * Snapshots: If afile is not change it is not stored again.
+                       * Distributed: Every user has it own repository data stroed locally allow full functionality even on disconnection.
+                       * Intergrated: Check sum before storing ensuresie u cant make any chnges to anythng vthout git recording chnges
+                       * Fast operations: Every opreation is local,speed offerd by GIT is lightning fast compared to oteher VCS'S
+                       * Branch handling: Collabrated work directory is itself a branch.difference branches can be mergred vth ease.
+                       * Robust : Nearly every task in GIT is undoable n it is really to lose any change are data in GIT.
+    10/11/22                   
+   -> A software becomes open source if its source code it freely available.
+   -> the free software movement was strated in 1983 n 1998 .some developers coined the term "open source" to make it less ambiguos n everyone adapted to it.
+   -> OPen source projects are generally a collabrative effort by multiple sets of developers to enchance d product a allow others to get benefit of it.
+   -> The owner may put restrictions on usage, modification n distribution by various licensing,but it should be avalible to study for everyone.
+  -----> Source code management it is a tool,the versions is avaiable is 64bit,git 2.38.
+  -> The default it will store in Cdrive.
+  -> Once we download SCM in windows,there r types they are:
+              * Git Bash
+              * Git cmd
+              * Git GUI
+      CD----Change directory
+      mkd---Make directory
+      pwd----It shows that present working directory,wr we r working.
+      *ls- it will list the files/directory.
+  ----> Commands:
+                  cd.d:
+                  D:\cd Demo
+                  D:\Demo>mkdir20221110
+                  D;\Demo>cd 20221110
+                  D:\Demo\20221110>11(it will list d files availiable in folder/directory)
+                  
+                  
+  
