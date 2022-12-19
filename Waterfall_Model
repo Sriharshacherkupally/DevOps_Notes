@@ -1,0 +1,45 @@
+08/11/2022
+-->WATERFALL MODEL:
+            * The waterfall model is a linear, sequential approach to the software development life cycle (SDLC) that is popular in software engineering and product development.
+            * Its main purpose has always been to help internal teams move more efficiently through the phases of a project.
+            * Over the edge of the requirement,it can't turn back.
+            * It is a oneway,depends on and stages flow like water.
+            * It is a down to up process.
+-->Problems:
+            -> High amount of riskand uncertainty.
+            -> No working software is prouduced until during the lifecycle.
+            -> If subject is risk,not take as waterfall.
+            -> Not suitable to projects,where requirements are at moderate,high risk of changing
+-->SDLC:Software Devolopment Lifecycle
+               ->The Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, low-cost software, in the shortest possible production time. 
+               ->The goal of the SDLC is to produce superior software that meets and exceeds all customer expectations and demands.
+               ->SDLC is a methodlogy used to develop a software.
+               ->There are 6stages to develop the projects,they are
+                    *Requirements:Agreement with customer or Customers requiremnts.       
+                    *Design      :Its shows  What technology,modules,tools we were used,who did this work 
+                    *Implement   :To implement code,test(Unit,System,Regression)
+                    *Test        :Its test User accept and satisfy the requirements.
+                    *Depoly      :Release the requirements for the feedback from the customer.
+                    *Maintenance :Finish the bugs and the requirements will handle to customer.
+      >Diagram of SDLC:              
+                                          Requirements
+                                               |
+                                            Design
+                                               |
+                                           Implement
+                                               |
+                                             Test
+                                               |
+                                            Depoly
+                                               |
+                                          Maintenance 
+   -->Agile: A code/requiremets will be divided into smaller and smaller pieces.
+         ->Rapid development,we deliver working product,limit of features
+                                       Customer review
+                                               |
+                                        product feedback
+                                               |
+                                        Deliver the product
+         ->The projects will be discuss in sprint call,dependupon teams/company the projects will be done.
+         ->High frequency
+         ->Linear way of working

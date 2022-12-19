@@ -1,0 +1,91 @@
+Maven: Maven is a tool that is used to compile,validate codes,and analyse the testcases in the code.
+     - Maven the building reporting and documentation from Source Control Management(SCM).
+     - Maven projects are configured through project Object model.
+     - pom.xml file contains documentation for all of the objects,properties,methods,add events.
+       (Interviwers question)pom.xml: Project Object Model.
+                      - Respective to the project Id,package Id,Group id,Artifact Id and version.
+* Capable of maven:
+     - Information of the project is centralised through maven.
+     - Our software projetct is modeled by it.
+     - Build process is managed.
+     - Data about the software project is gathered and then build itself.
+     - Document the software and our project.
+     - Depolyable artifacts can be generated fromm source code.
+     - Your source code is complied,packed,test and distributed
+     - Reports is created,website is generated for the project.
+* Advantages/Objectives:
+     - Make the build process easy.
+     - Provide uniform build system.
+     - Gives quality project information.
+     - provide guidelinesss for practices development.
+     - Allow transparent migration to new features.
+* Maven Build lifecycle:
+     - In Maven,the build is run using a predefined and ordered set of steps to call the build lifecycle
+     - The build tasks that will be performed during each other phase are determined by the configuration in the project file,and the particular the selected packaging
+     - Maven relies on build lifecycles to define the process of building and deermining artifacts (eg: Jar files,War files).
+     - There are three built in build lifecycles:
+                * Default: handles project building and depolyment.
+                * Clean: handles project cleaning.
+                * Site: handle project's site generation.
+ * Maven Architecture:
+                   Plugins 1        Plugins 2           Plugins 3          Plugins 4
+                       |                |                   |                  |
+                                               Core engine
+                               |                                        |
+                               |                                        |
+                               |                                        |
+                               |                                        |
+                               |                                        | 
+                     Remote Repositoreis                          Local Repositoreis
+    * External Plugins: Perform and action on the project.
+    - Plugin of projects Group Id,Artifact Id,Version,Configure.
+    - Download an project task perform plugins
+       * Apache.maven,maven.compile,sourcefile plugin,javadoc plugin.
+* Maven Repository:
+    - Maven repository stores all the versions of all the dependencies.
+    - There are 3 types of maven repository:
+        * LOCAL: It is located in the developers machine.By default,it is created in the directory and whatever dependencies are downloaded from remote server,it is saved into the developers machine.
+        * CENTRAL REPOSITORY: The location of this repo,is https://repo.maven.apache.org/maven2/.Whenever build job is run,maven try to find it from local repository but when its not there ,they download dependies from central repoistory.
+        * REMOTE: Sometimes,there are objects and modules which are specific to organisation,for which remote reositories are created which arfe accessible within the organisation.
+     ---> Dependencies:
+            * Maven comes into the picture for dependencies.
+            * Manages hundreds of plug-ins.
+            * Dependencies grt cached into the local repository.
+            * Manages the transitive dependencies.
+            * Provides multiple scope for including dependencies.
+* Maven Through Terminal:
+   - Install the Maven tar file after verifying the signature.
+   - After installing the Maven,check its version from ubuntu terminal by using the below command
+                * $mvn -version(Default in system)
+   - Below command will create a project using Maven:
+                * $mvn archetype:generate -DgroupId=com.my company.app -DartifactIdmy-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+                * The generate goal will create a directory having the same name given as the artifactid.
+Maven Lifecycle Phases:
+   - Validate: Check if the project is correct,having all the necessary information.
+   - Compile: Compile the source code of the project.
+   - Test: The compiled source code using a suitable unit testing framework.These tests should not require the code be packaged or depolyed.
+   - Package: Take the compiled code and package it in its distributable format,such as a JAR.
+   - Integration-test: Process and depoly the package into an environment where integration tests can be run.
+   - Verify: Run any checks to verify the package is valid and meets quality criteria.
+   - Install: Install the package into the local repository,for use as a dependency in other projects locally.
+   - Depoly: Done in an integration or release environment,copies the final packages to the remote repository for sharing with other developers and projects.
+* The data will be avaliable in the local,but cant see in remote repositery.
+* If the data is not avaliable in local repositery,it will download from remote repositery.
+ --> Maven commands:
+        * mvn verify,compile,test,package(JAR,WAR file),depoly,install.
+        * mvn install and package: mvn package command will compile source code and also package it as a jar or war as per pom file and put it into the target folder(by default). mvn install command will compile and package, but it will also put the package in your local repository.
+        * mvn compile:This command compiles the java source classes of the maven project.
+        * mvn validate: This command validates the maven project that everything is correct and all the necessary information is available.        
+        * mvn verify: This command tells Maven to build all the modules, and to check if all integration tests succeeded (when any was defined) That's it! If you look in the target subdirectory, you should find the build output and the final library or application that was being built.   
+        * mvn deploy:This command is used to deploy the artifact to the remote repository. The remote repository should be configured properly in the project pom.xml file distributionManagement tag.
+        * mvn test: It will excute testcode.
+        
+       
+                
+                
+                
+                
+                
+                
+                
+     

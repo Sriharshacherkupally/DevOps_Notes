@@ -1,0 +1,564 @@
+           
+  ----->LINUX:  
+                * It is a user interface.
+                * Platform is built on modified version of CentOS,vth certified support from Redhat 
+                * CentOS is a non-commerisal(it diestribution of linux,provides stsbility to d company,which delivery a consistent),Redhat is a Commerisal(it is a Enterprise)
+                * It is a open source OS, modeled as unix n developed in C language.
+                * To get updates will be pay some subsciption.
+                * Star in Madagascer,kungfu,pand n shrek,redhat,dreamworks use linux o their desktop.
+                -  In Google: linux distributin also called as "goobunta",modified version of Ubuntu.
+                - Munich(germany) relab community "Linux",secure architecture,cost.
+    --> Linux: anyone can enhanced code,manipulate.
+    -  It is free of cost,public.(adobephotoshop,library ofc)
+            - Free software foundation,software becomes opensource,sourcecode is freely avaliable
+            - Free software movement strated in 1983-1998,some developers coined d term open source to make it,ambigous n everyone adapted.
+            - Open source projects are generally collabrative.
+            - Usage modification,distribution by varios.
+      ---> History of Linux Kernal:
+           * 1967-70: Unix OS was conceived,implemented n released by Ken Thompson n Dennis ritchie.
+           * 1977: BSD(Berkeley s/w distribution) contained Unix code that was developed by UC berkeley.
+           * 1983-86: Stallman stred a GNU project Unix like OS,which was free for copying n modification.
+             1986,Maurice J published d design of UnixOs
+           * 1987: MINIX which similar to Unix was developed by Andrew Tanenbaum,wr copying of code was allowed.
+           * 1981: Torvalds created a Linux Kernal in 1991.Linux Kernak along vth GNU tools became Linux Os.
+       -no user friendly in old days.
+       - Windows,Mac opensource more robust,accessble now-a-days.
+    ---> Parameters of            Linux                                                   Unix:
+              Cost               Free                                                  Not free(diff vendors have differnt prices)
+              Flexbility          Yes                                                  Not flexible(compatible vth less h/w)
+              Source code        Avaliable                                             Not avaliable(it is not freeware)
+              Installation      Economical                                             Uneconomial(Unix requires specific h/w)
+              Community         wide n/w of develpers                                  Limited commercial developers
+              Support           Depends upon forums n community for support            Vendors usually provide technical support for commercial Unix
+              Bug fixes         Bug fixing is much faster in linux than in Unix
+     ----> Features of Linux:
+           * Reliable
+           * Hugebase support
+           * Mointoery cost
+           * Open soucre
+           * Licensing fredom
+           * Customised
+           * Enchancements
+           * Secure
+           * Flexible
+      --> USED:
+        * Servers Embedeed systems
+        * Super computer Android,Gaming,Visual effects Servers,NASA
+        * Static,dynamic routing
+        * Desktop wide varitey of ways.
+   ---> Components:
+        * Initprgm: The program which is responsible for the intialization of the systems. eg:sysunit,systemd
+                    Redhat-6,RHL-D system D intitalizing services
+        * Bootloader: A prgrm which loads d os when d files turned on. Eg: GNU Grub,Syslinux
+        * S/w libraries: Set of prgrammers code used to develop n design s/w prgrms n applications.
+        * Package management System: A collection of tools for installation,deletion,configuration,n upgradtion of s/w.Eg:dpkg,RPM
+        * Other appl's: various appl's& interfaces r used for various task performed by user.
+        - Grub is a default bootloader,it is a disk to Ram.
+        - Enchance -->Grub2.
+        - Backup: Systemcall vth libabries(dell),dynamic link libareries(vthout apl's can't run)
+  ---> Architecture of OS:
+                  Applications----Shell----Kernal----H/w.
+     - Hardware: It consists peripheral devices(CPU,RAM)
+     - Kernal: Most of core components connect OS directly vth h/w for coreprgrm of OS,lowlevel services to upper layers.
+     - Shell: Interface vth kernal,hide complexity functions to user.
+     - Application: Prgms to user functions of OS.
+ Echo is a  cmd.Again we get return data as a o/p.(Execution kernal).
+----> Shell interface which takes user command n send to kernal.
+ * Shell has got its own programming lang n u can combine multiple cmds in a single script.
+ * It takes d cmd in human readble format n provides it to kernal in binary language.
+ * The user generally interacts via shell,but direct interaction vth h/w is also possible.
+ * The first shell created was sh for Unix systems.Linux still provide support for sh shell,but bash is more popular vthin d Linux users.
+            App---shell---Kernal---H/w devices(CPU,Memory)
+  ---> How Shell works?
+     * The cmds to be excute /shell script----Linux shell----Converted to binary lang by shell----Sent to linux kernal
+    Eg: grep                            10110000
+        awk-------------BASH----------- 10001100--------------Linux kernal
+        cat                             00110011
+     * Shell is Interpreted,not a Complier
+ ---> Types of Shell:
+      There r 4 types of shell,they are:
+         * Bash shell (Default shell)
+         * C shell
+         * Korn shell
+         * tsch shell
+      -- C0MMAND: echo $SHELL: It is trying to know what is presnt in server.
+      * Bourne-again-shell was written as part of d GNU prject to enchance d functionlaity of sh(Bourne shell)
+      * Some enchancements like cmds completion n complte histroy r done.
+      * It supports all sh functionalities n its own script for strtup.
+      * It can perform integral calculations vthout invoking any external process.
+      * One can enter "#!/bin/bash" at the top of the file to tell Linux to run vth bash interpreter.
+  $- a word link/assign vth to d server.
+  --> cat cmd: View d information in d files.
+      etc: show Folders
+      clearcmd: to clear a screen.
+      UP arrow n down arrow keys used to previous code cmds.
+      shrtcut: Ctrl+l
+      alias c=clear(clear d screen)
+     Eg: alias sriharsha=clear
+     pwd: It is present working directory
+     . Is to ignore d files
+     ll- viewed all the detals like a size,permissions,who created,what gng on d server inform to d client.
+   --->COMMANDS:
+       touch : it is used to create the empty file.
+        Eg: touch<filename>
+        .txt is extension.
+       * It is mode of permissions.
+       * no.of links
+       * User ownership
+       * Group owner ship 
+       * Size of d files/directory/character.
+   -> touch file{1,2,3,4,5}:for multiple.
+          --> what is linux Distro?
+               * It is an a OS having linux kernal n GNU tools packages vth some more appl's.
+                 -ubuntu
+                 -Debian
+                 -RedHat 
+                 -Fedora
+             * there r more than 600 distribution available based on:
+                 - The development grp
+                 - Their specific requirement n
+                 - Customization
+             * They r community n commercial supported distros.
+  -->How to choose Distro?
+       It will be choosen based on d requirement of d user.
+       -Purpose of use personal or professional?
+       -Easy to install : Configuration is done vth default values or it is manually chosen?
+       -Look n feel: Interface r Cmd line interface?
+       -For training,it is recommended to use Ubuntu.
+   --->Features:
+        *Most popular Linux distro
+        *Secure n reliable
+        *Multi-varient releases.Eg:Desktop,server
+        *Frequent releases
+        *Easy to use
+        *It contains a wide range of s/w like Libreofc,thunderbird,etc n alsogames such as Sudoku n chess.
+        *Latest technology having huge support base
+        *New releases frequently
+        *Easily customizable
+        *Stable n reliable
+        *Upgrade versions vthout reinstalling.
+   ---->File:
+         * you don't need a cmd to check d CPUinformation,but can print d file"/proc/cpuinfo" like a simple plain text file.
+         * There r some spcl filesthat represent h/w devices,systeminformation etc.
+         * The /proc filesystemin linux gives detail about d kernel's run time operations in form of plain text files.
+  -->Types o files:       
+      -Normal file
+      -Normal directory
+      -Symbolic link(shortcut to a file/directory)
+      -Socket(pass the data b/w two processes)
+      -Pipe(it is similar to socket,but users can not work with it directly)
+      -Processes character hardware communication.
+  --> Everything consider as file.
+  * cmd: $cat/proc/cpuinfo(To get CPU configuration)
+  * cat cmd is used to view the information.
+  ls -l(see ur files step by step): /dev/Sda* (ls: see ur files)
+  d(diretory):it gives permissions.
+      - .rw -1: file.txt
+      - dr -3:  dir
+      - lr -1:  link_dir ->dir/dir1
+      - dr -1:  student
+      - .r -1: hello.txt
+  -> Check the first letter which is describing d file types.
+  -> based on d distro,each file type is assigned vth different color code.
+---> Run:
+   * The init fig out the default runlevel to start the associated script with respect to the configured run level.
+   * You can manually change the run level using the telinit cmd and superuser has permission to modify the run level.
+   * It is an operational level which describes the current state of the system with respect to the services available.
+   * It is a single dig it integer that defines the state of the system.
+      -Halt the system
+      -Single User mode
+      -Multiple user mode with no network file system
+      -Multiple user mode in CLI(cmd line interface),but no GUI.
+      -User definable.
+      -Multiple user mode in GUI.
+      -Reboot
+      *Maintance d activity.
+              * Shutdown -h(shutdown d system)
+              * Shutdown -r(reboot d machine)
+              * Shutdown --help(It will help is based on requirements)
+              * -P --poweroff(power off the machine)
+              * -h Equivalent to poweroff,overridden by --halt
+              * -k (Don't halt/pwroff/reboot)just send warnings
+              * --no-wall( dont send wall messages before halt/pwroff/reboot)
+              * -c (Cancel a pending the shutdown)
+ --->PIPE:
+        * Pipe represented by "|" is used to direct d o/p of one cmd to another.
+        * It creates an internal connection between two or more commands.
+        * The pipe is unidirectional n data flows left to right
+        * The data is passed to other cmds directly instead of using instead of using temporary text files.
+        * Pipe a long with grep is most commonly used
+        ** Eg: cat file.txt | grep"linux"
+                cmd1--------------files----------------cmd2
+          -ls: cant find difference between file/directory.
+          -ls -l To differtative between file/directory.(step by step)
+          /s -|: It will list d files.
+          ls .-l|grep "^."
+    * First o/p is d second input.
+    * grep: To search are find out.
+---> Shell scripting:
+                     Shell scripting is a series of shell cmds arranged in a text file to be excuted one after the other.
+     * Similar to batch file in windows.
+     * Helps to automate a sequence of task creating and also saves time.
+     * Can be created using any normal text editor.
+     * Compiled like C/CPP prgrm, but are interpreted directly.
+     * Each shell script must have excutable permission to run the script.
+ --->
+     * It is a iterative process.
+     * Store backup databases.
+     * Perform quick tasks.
+     * Schedular the jobs/tasks(Chron) on linux.
+ 11/11/22
+ 
+ - ls -l | grep "^d" | wc .l
+ - cat filename.txt | grep "linux"
+ - cat filename.txt | grep "Sriharsha"
+    * Excute more than one cmd in single line using | symbol.
+    cat:To view d information/contents of files.
+  *   Creating a shell script:
+   - To get into root user for execution sudo -i create text file n add d extension of d shell a vi script .sh
+   - Enter some commands in d scripts to be executed ---> echo "My first script"
+                                                          echo $(date)
+   - Chnge d permission of d scrp, give it executable permission n may also give read n execute permission for other users.
+   - Run d script --->#./script .sh
+                      #bash script .sh
+* cmd: sudo -i -->o/p password for:
+                   #vi script .sh
+* cmd: echo "My first script"
+        echo $(date)
+*#chmod 755 script.sh
+* #./script.sh  -->o/p details about first script.
+                    #bash script.sh
+     ---> more cmds:
+                   clear
+                   date 
+                   cal
+-----> Practical Users of Shell scripting:
+    * Data backup at regular interval of time in the background.
+    * To find out d number of users and their details.
+    * Find details about various processes n sorting them based on CPU usage,runtime,mempry usage,users,etc.
+    * To append each file vth a signature,date etc.
+    * For scheduling tasks to be done at n/w servers.
+    * Creating new users by providing permissions just by entering username.
+----> User Interface in linux:
+       * User Interface is a visual part of OS through which a user interacts vth a computer or a s/w.
+         - Command line interface give cmds in d form of lines of text  to d prgrm.
+         - The prgrm which handles it is called a cmd language interpreter.
+       * Graphical user interface interacts vth users vth icons,folders,wallpapers,widgets, n visual indicators to make it easier for d user to access d prgrm.
+       * For linux,desktop environments r KDE,GHOME,CINNAMON,MATE etc.
+              Command line interface(CLI)
+                      |
+              Graphical user interface(GUI)
+   * One need a terminal (CLI) to excute d command.
+   * Multiple cmds can b executed sequentially by adding ";" in between them.
+        Syntax: Command <option> <arguments>
+        ---------> whoami: to know current user.
+        cd: Share directory to one to another folders.
+            #-prompt(super)
+            $-prompt(regular)
+        rootserver - #whoami
+                     #pwd (superuser high privliage permissions)
+              $cal --help or man cal To known specific
+              shutdown -h -r
+              * arguments not proceed vth(-)
+              * every cmd as arguments.
+                   $cd /opt (permissions granted)
+                   opt: folder used to install any packages/software
+           /opt$ touch j k l (permissions denied)
+           /opt cd
+           $pwd
+           /ls/opt list files which r inside the opt directory.
+           ls -a list all files n directory
+           ls -r reverse order
+           ls -F differative d file types
+           ls -ll long listing see include hiddenfiles/see all files.
+           alias ls = l | s --color auto
+           * (...) file start vth dot is ignored files in the directory.
+           * mk dir - To create a folder/directory.
+           - To run a cmd as administartor (user "root"), use "sudo <cmd>".
+           See "man sudo-root" for details.
+           - $ cal (It will land the calender)
+           * mkdir -p india/telangana/hyderabad
+            - ls -R Reversive order.
+            
+              - sudo su: administrative activity(he can do lot of things,not for regular)
+              - exit: to get back to myuser.
+              - whoami: To show/know d current user.(Root is able to this)
+              - apt(Advanced packging tool): It is a package/manager ie used for managing d installation,updating,remove of s/w pckages.
+                   * In Debian linux system uses dpkg packing system.
+              - apt-get: To manage d packages on ur linux system.
+                   * vim /etc /sudoers(It provide for regular user).
+                   * wheel- It will get all d permissions.
+                   * #exit: logout (we dont use root permissions/privilages)
+                   * cat: (Concatation purpose): Joining multiple file.
+                      |-> It doesnot Interactive mode.(It will over right the data).
+                       * cat>file1.txt : Write directly (To add files)
+                       * In linux everything is written in files.
+                            - Ctrl+d: Denied next line.
+                            - cat file1.txt -n: To show numbers for the data.
+                            - Existing data can't modify only we can add/obtain d data.
+              * cat >>file1.txt: We use to add more data(>>)
+              * >(out operator)
+              * >>:It will to existing data.
+              * cat txt.txt----View contents of files.
+              * cat >txt1.txt
+               sdsd
+               sd
+               sd
+               s
+              * Ctrl+d (To come out d files)
+               cat txt1.txt (We will get entire data)
+               o/p: sdsd
+               sd
+               sd
+               s
+         * replace: overwritten vth file1&file2
+         * Disk moduling both must be same size.
+         * 2nd drive must be more than first.
+         * In One harddisk we can do anything.
+              - touch.multiple file vth 0bytes.
+         * x fsdump\xfsrestore
+         - File creation methods:
+               * cat
+               * touch----------------Managing/create/update/override d files.
+               * vi/vim 
+          ---->Tools :
+                   gedit
+                   nedit
+                   pico
+                   nano
+                   joe(GUI),Text based editor(file,modify)
+           ----> cd /var/logs ls
+                 /var/logs cat kernlog
+                 cat auth.log (see code file)
+                 
+                 -----> Manipulation:
+                      /var/log # tail author log     (tail: We can see last lines of code)
+                      /var/log #head author.log      (head: We can see Main lines of code)
+                         * tail -n20 .author.log     (To check no of lines,means we can see 20lines)
+                         * tail -n5 .author.log      (Last 5 lines we can see)
+                         ----> Ctrl+C =cancel.
+                         * tail -f: (livestream of data)
+                         * tail -less author.log: (Pagewise direction(depends upon screensize))
+                         * less -scroll down
+                         * more -scroll up
+                         * Troubleshoot,etc
+      -----> WC: Wordcount is OS allows t findout the wordcount newlinw,count of bytes r characters in files i.e mentions by file arguments.
+       there are types of WC:
+          * wc -l author.log (Prints d no of lines in a file)
+          * wc -w author.log (Prints d no of words in a file)
+          * wc -c author.log (Display d count of bytes in a file)
+          - df (Size of bytes)
+          - df -h (Human readble format)
+          - df -hT (Type of file system)
+          - du (directory Usage): Wnted to know how,what,why the data using have,left--------etc)
+          * nanofile1.txt: It shows modify d data/To chnage some data
+          * Ctrl+O: It is to writeout.
+          * vi/vim : We need more knowledge about vifile.txt
+         --------------> There r 3 modes #vi file.txt: 
+                 * COMMAND MODE :It is a default,we can do cmd operations.
+                 * INSERT MODE : Only insert d data.
+                 * EXECUTION MODE : Execute d data.
+      
+                                             #vi file1.txt
+                                                  |
+                                             Command mode  
+                             a,A,i,I,o,O  /                 \:wq
+                                         / esc          esc  \
+                                   Insert mode           Execution mode
+       
+       * 5lines yanked - To paste the lines.
+       * 5 fewer lines - To delete
+       * u - undo changes
+       * yanking is a copy a line,p is put 
+       * rn - Delete
+       * x - Delete character
+       * dw - Delete woed
+       * Ctrl+r - redo
+       * Shift+R - Replace in bottom (finding,writing),previous line will recoverd
+       * Shift : - Write/read d file.
+                   :w -sree.txt (save) a new file.
+       * :n - one file to another file/modify by one.
+       * :r - reverse
+       * :1, $s: Top to bottom poistion,substitute,find,replace.
+       * s: To search word of name Sree.
+       -----> Find & Replace
+            - cmd : 1, $s/<What word>/<vth what word>(finding name vth sriharsha&replace vth d name sree)
+            - EG: 1, $s/sriharsha/sree.
+       --> Execution mode: 
+              - :set nu -See lines number.
+              - :set 14 - It will take to 14 lines.
+       ---> grep:
+        * The cmd prints d lines matching vth d pattern which is passed.
+        * When a match is found,d line is copied to standard o/p or mode requested.
+        * It has no restrication on d input line length other than d available memory size.
+        * Since d new line acts as a separator so it cant be passed as a pattern to be matched.
+        * grep has some specifications from POSIX n GNU.
+       ----> Syntax : grep <option> <pattern> <filename>
+              Eg: # grep "hello"file.txt
+        * Finding difference foldder n different filename/directory.
+        * -i : insenstive
+        - sme kind of cmd -i (small/captial letters o/p)
+        - -ic count (excute vth count)
+        - -ni: We can see one number.
+        - grep -i(find more than one folder/file) sree -B/etc/pswd
+        - cat/etcpswd -n: (See line number)
+        - -B5 root -A5/etc/pswd: before5 lines vth appear,A5 first 5 lines will appear.
+        - permission: Need somemore activities to read activity,cant excute.
+        - sudo grep -i sreee /etc/grep/etc/shadow
+           * decrypt
+           * encrypt
+           
+          ----- $pwd
+             ls -l: list all d files.
+             ls -l| grep "^." : List of d
+             ls -l | grep "^d" : List of directory.
+             ., -: files.
+             
+    ----> awk:
+             useradd sriharsha
+             sudo useradd sriharsha
+             tail /etc/pswd
+             * name,masking,UID,GID,Empty checkinfo,Home directory,Default shell user.
+             - cat /ect/pswd
+             - awk -F : ":"/etc/pswd (used in scripting files{pickup},{separate d files})
+             - awk -F : ":" {print$1} /etc/pswd : (print first field)
+             - awk -F : ":" {print$1,$2}/etc/pswd
+              * awk /sriharsha/{print}/etc/pswd
+              * To review d log,used awk 
+              
+         --> "Syslog": Space separate(no need to mention anything)
+              -vim syslog
+               awk '{if ($2)}' 
+                                - -a: append
+                                - -c: previous history clear.
+                                
+      ---> Clone repoistery cmd,gitbash both we can do?
+                  * Any cmd start vth git is working by git.
+                  * Any cmd not start vth git,it is not working by git.
+                  * Open(O),Read(R),Write(W)
+                      - cd d:
+                      - user\DE >d:
+                      - D:\> cd Demo
+                      - D:\>Demo>mkdir
+                      - D:\>Demo> cd
+                      - D:\>Demo\sriharsha
+                          * git clone <url>
+                          * >explorer. : Windows will be appear,including .git all will be open.
+                          * .git: See a lot of information i.e it contains our metadata.
+                          * Git in root,git will take vthin repoistery,copy overall files in rootlevel.
+                          
+                          * Git will create a workarea(where we will work on files,update,rename,modify)
+                          * Copy all over files,now we can work in workarea,do any opertaions.
+                          * Change is done,please check my git respoistery and update it.
+                          * Git will not directly,we should convey to git to restore a new version of file,then we will update veersion.
+                                  - dir /a
+                                  print "Hello World"
+                          * git status : If any changes is happening, it will check in respoistery.
+                          * Untracked files : It will not track by git.
+                 ---Git workflow:
+                       * Clone--> do change modification/editing/deleting
+                            |
+                       add to a git
+                            |
+                       Commit it (cant directly commit )
+                            |
+                 There are happened in local things.
+                            |
+                   Git push to central repoistory
+         
+         central server----> .git---->Staging area
+            * Staging /Index area: logically area/not stored,physically
+            - New updateadd to staging area n commit 
+              * "git add <file>" to include in what will be commit.
+                * Syntax: git add <filename> from work area to staging area
+                          git add <sriharsha.txt>
+                          -File readme.txt will staged from workarea too staging area.
+                  -git add program.py (It will add only one)
+                  * .-add files where we using only specific files.
+                  * Editor-cmd prompt only.
+--> D:/Demo/2021101614/Sriharshs.git/commit_editing1
+-------INSERT---------
+    :q------QUIT
+    *  git: What changes is done that we can see
+    * Commit-Head in main.
+    * Author: and vth<sriharsha36@gmail.com>
+    * date:wed 22
+    * gitpush : moving vth own force,local server to remote/centralserver.
+    * git restore: Reset our workarea,ignore d files.
+    * git bucket: to save
+    * restore -h: to help
+    * git add -h: We see all files.
+    ---> gitlog: To used to read the history and to review of everything happens to a repoistory.
+         * authorname,timestamp,commit id,commit username.
+    ---> git config: It is used to set the git configuration values on global user.email/main,origin/head
+    ---> git clone <URL> only to local,add ur changes repoistry,only local copy of respority,push to d remote server.
+    -m(msg): modified readme file to add
+    git add
+    * Sink: for port to parent repoistery.
+    * git diff (show difference files a workarea existing version of respoistory)
+    - Old ,New deleted
+    -> git commit: -a,-m(new chnge in prgm .py)
+    * File must be underline/existed file
+    *  shrtcut for commmit/Existed/modified/updated, bu not d created files.
+    ---> Delete a file: git rn somefile.txt 
+    * commit -m for modify/update d repoistery.
+    * -m : mark for delete.
+    * git rm <filenmae.txt>
+    * eg: git rm <harsha.txt>
+   2/12/22 
+    * git --version
+    * git clone <url>
+    * ls
+    * change directory cd
+    * create the file (touch my new file.txt)
+    * git add (add filename which we created)
+    * git status
+    * git commit
+ --> git tag : Tags is generally used to capture a point in history that is used for a marked version release. A tag is like a branch that doesn't change.
+        Tags:
+             git tag -h : It will help to know more options.
+             git tag -a : In our repository we use Git Tags to tag which code is deployed on specific environment
+             git tag -l : In our repository which will list the tag of git commit.
+             git tag -d : It is used to deleted the tags.
+             git init : Intialize empty file.
+* How to add remote repositery as a origin?
+      Syntax: git remote add origin <URL of github repositery>
+      eg: git remote add origin <cherkupallysriharsha36@gmail.com>
+      
+  --> git fetch : Download a our metadata,it will keep only on .git folder.
+  -->  git pull : It will update the data.
+                                
+                                
+                                
+     
+             
+              
+             
+             
+             
+             
+        
+       
+            
+          
+                   
+            
+           
+        
+      
+          
+                     
+  
+  
+  
+        
+        
+  
+                 
+          
+   
+         
+
+             
+             
+             
