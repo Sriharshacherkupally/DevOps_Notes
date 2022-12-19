@@ -1,0 +1,89 @@
+The Java Development Kit (JDK) is software used for Java programming, along with the Java Virtual Machine (JVM) and the Java Runtime Environment (JRE). The JDK includes the compiler and class libraries, allowing developers to create Java programs executable by the JVM and JRE.
+
+In this tutorial, you will learn to install the Java Development Kit on Windows.
+
+How to install Java on Windows.
+Prerequisites
+
+A system running Windows 10.
+A network connection.
+Administrator privileges.
+Note: Develop your core app services on PNAP's Bare Metal Cloud servers to ensure superior performance. It's cloud native and the perfect environment for the entire SDLC.
+
+Check if Java Is Installed
+Before installing the Java Development Kit, check if a Java version is already installed on Windows. Follow the steps below:
+
+Open a command prompt by typing cmd in the search bar and press Enter.
+Run the following command:
+java -version
+
+Windows not recognizing the java command because Java isn't installed.
+The command outputs the Java version on your system. If Java isn't installed, the output is a message stating that Java isn't recognized as an internal or external command.
+
+Note: If you need to set up Java on a different system, check out our tutorials for installing Java on Ubuntu, Fedora, Raspberry Pi, CentOS 8, and CentOS 7.
+
+Download Java for Windows 10
+Download the latest Java Development Kit installation file for Windows 10 to have the latest features and bug fixes.
+
+Using your preferred web browser, navigate to the Oracle Java Downloads page.
+On the Downloads page, click the x64 Installer download link under the Windows category. At the time of writing this article, Java version 17 is the latest long-term support Java version.
+Download the Java Development Kit installation file from Oracle.
+Wait for the download to complete.
+
+Install Java on Windows 10
+After downloading the installation file, proceed with installing Java on your Windows system.
+
+Follow the steps below:
+
+Step 1: Run the Downloaded File
+Double-click the downloaded file to start the installation.
+
+Step 2: Configure the Installation Wizard
+After running the installation file, the installation wizard welcome screen appears.
+
+1. Click Next to proceed to the next step.
+
+The welcome screen of the Java installation wizard.
+2. Choose the destination folder for the Java installation files or stick to the default path. Click Next to proceed.
+
+Choose where to install Java.
+3. Wait for the wizard to finish the installation process until the Successfully Installed message appears. Click Close to exit the wizard.
+
+Java installation wizard - successful installation.
+Set Environmental Variables in Java
+Set Java environment variables to enable program compiling from any directory. To do so, follow the steps below:
+
+Step 1: Add Java to System Variables
+1. Open the Start menu and search for environment variables.
+
+2. Select the Edit the system environment variables result.
+
+Find the Edit system environment variables option.
+3. In the System Properties window, under the Advanced tab, click Environment Variables…
+
+Locating the Environment variables option under System properties in Windows.
+4. Under the System variables category, select the Path variable and click Edit:
+
+Editing the Path variable in Windows.
+5. Click the New button and enter the path to the Java bin directory:
+
+Adding a new Java variable in Windows.
+Note: The default path is usually C:\Program Files\Java\jdk-17.0.1\bin.
+
+6. Click OK to save the changes and exit the variable editing window.
+
+Step 2: Add JAVA_HOME Variable
+Some applications require the JAVA_HOME variable. Follow the steps below to create the variable:
+
+1. In the Environment Variables window, under the System variables category, click the New… button to create a new variable.
+
+Create a new JAVA_HOME variable in Windows.
+2. Name the variable as JAVA_HOME.
+
+3. In the variable value field, paste the path to your Java jdk directory and click OK.
+
+
+4. Confirm the changes by clicking OK in the Environment Variables and System properties windows.
+
+Test the Java Installation
+Run the java -version command in the command prompt to make sure Java installed correctly:
