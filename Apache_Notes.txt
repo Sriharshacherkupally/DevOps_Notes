@@ -1,0 +1,83 @@
+Introduction
+
+Apache Tomcat is an open-source web server and servlet container for Java code. Tomcat executes programs written in the Java programming language, and it implements many Java EE specifications, including Jakarta Servlet, Jakarta Server Pages, and others.
+
+How to install Apache Tomcat on Windows.
+Prerequisites:
+-Java JRE installed and configured
+-Administrator privileges
+-How to Install Tomcat on Windows*
+* In this section, we will cover two ways of installing the Tomcat web server:
+
+Via Windows Service Installer.
+From a zip archive.
+
+----> Install Tomcat Using the zip Archive
+      Follow the steps below to set up the Tomcat server using the zip archive.
+
+1. After downloading the 32bit/64bit Windows zip file, depending on your Windows version, unzip the downloaded file. Right-click the file and select Extract all...
+
+2. Choose where to extract the archive contents. For easier navigation, we recommend extracting it to the hard drive's root. Optionally, give the directory a shorter name to facilitate server configuration later. Click Extract to start the process.
+
+Extracting the Tomcat server zip file.
+3. Navigate to the conf sub-directory within the extracted directory and locate the server.xml file.
+
+Important: Back up the .xml files before making any changes.
+
+4. The default connection port is 8080. To choose a different port, edit the server.xml file with a text editor, such as Notepad++, and locate the following lines:
+
+<Connector port="8080" protocol="HTTP/1.1"
+           connectionTimeout="20000"
+           redirectPort="8443" />
+
+Change the connector port number to any number between 1024 and 65535.
+
+5. To enable directory browsing, locate the web.xml file in the conf directory and edit the file with a text editor. Directory browsing helps when testing the system, and sometimes it may be the solution for a 403 forbidden error.
+
+Locate the following lines and change the listings value from false to true:
+
+<servlet>
+  <servlet-name>default</servlet-name>
+  <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
+  <init-param>
+    <param-name>debug</param-name>
+    <param-value>0</param-value>
+  </init-param>
+  <init-param>
+    <param-name>listings</param-name>
+    <param-value>false</param-value>
+  </init-param>
+  <load-on-startup>1</load-on-startup>
+</servlet>
+
+6. Implement an auto-reload feature by editing the context.xml file. Above all, auto-reload is useful in development to prevent restarting the server manually each time a change is made.
+
+Using a text editor, open the context.xml file. Locate the following line and change the value from false to true in each instance:
+
+<Context reloadable="false" crossContext="false" parallelAnnotationScanning="false">
+   ......
+   ......
+</Context>
+
+7. After making the changes, start the server. Press the Windows key and type cmd. Press Enter to open a Command Prompt window.
+
+8. Move to the bin directory of your Tomcat server and run:
+
+startup
+
+Starting the Tomcat server in Windows.
+8. Add an exception for Tomcat in the firewall:
+
+Allowing Tomcat network access in Windows Firewall.
+9. A new Tomcat console window appears. This console receives error messages and system.out.println() messages issued by the Java servlets.
+
+Tomcat console windows displaying server status.
+Note: See how to check which Java version is installed on your Windows or Mac system.
+
+10. Access the server using a browser as an HTTP client. Browse to http://localhost:8080 and access the Tomcat welcome page to ensure the server works.
+
+In addition, use the Developer Quick Start links to see more information about the server and start using and configuring the server.
+
+Apache Tomcat server welcome screen.
+11. Shut down the Tomcat server by pressing Ctrl+C on the Tomcat console.
+
