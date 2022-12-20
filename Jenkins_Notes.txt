@@ -1,0 +1,62 @@
+
+Introduction
+
+* Jenkins is an open-source automation server developers can use to automate building, testing, and deploying applications. 
+* It is available on a variety of systems, including Windows, Linux, Unix, and macOS.
+
+-->In this,we take you through the step-by-step process of installing, unblocking, and customizing Jenkins on Windows 10.
+
+--->Prerequisites
+
+* A system running Windows 10.
+* The latest copy of Java Development Kit or Java Runtime Environment installed.
+* Access to an account with administrator privileges.
+
+----> Install Jenkins on Windows
+         1.Browse to the official Jenkins download page. Under the Downloading Jenkins section is a list of installers for the long-term support (LTS) version of Jenkins. 
+           Click the Windows link to begin the download.
+         2.Once the download is complete, run the jenkins.msi installation file.
+         3.The setup wizard starts. 
+         4.Click Next to proceed.
+----> Starting the Jenkins install wizard 
+         5.Select the install destination folder and click Next to continue.
+--->Selecting the install destination
+         6.Under the Run service as a local or domain user option, enter the domain username and password for the user account you want to run Jenkins with. 
+           Click Test Credentials to verify the login data, then click Next to proceed.
+--> Using the Run service as LocalSystem option doesn’t require you to enter user login data. Instead, it grants Jenkins full access to your system and services. 
+    Note that this is a less secure option and is thus not recommended.      
+         7.Enter the port number you want Jenkins to run on. Click Test Port to check if the selected port is available, then click Next to continue.
+         8.Entering the port number Jenkins will use
+         9.Select the directory where Java is installed on your system and click Next to proceed.
+        10.Select the features you want to install with Jenkins and click Next to continue.
+--->Choosing which Jenkins services to install
+        11. Click Install to start the installation process.
+*Starting the installation process
+        12. Once the installation is complete, click Finish to exit the install wizard.
+
+--->>Closing the install wizard Unblock Jenkins
+After completing the installation process, you have to unblock Jenkins before you can customize and start using it.
+
+      1. In your web browser, navigate to the port number you selected during the installation using the following address: 
+                                        http://localhost:[port number]
+
+     2. Navigate to the location on your system specified by the Unblock Jenkins page.
+        The Unblock Jenkins page shows the path to the file with the administrator password
+        Note: The Unblock Jenkins page may point to a hidden directory. In case you cannot find the directory, make sure you enable viewing hidden items.
+     3. Open the initialAdminPassword file using a text editor such as Notepad.
+     4. Copy the password from the initialAdminPassword file.
+        Copying the administrator password
+     5. Paste the password in the Administrator password field on the Unblock Jenkins page and click Continue to proceed.
+        Entering the administrator password on the Unblock Jenkins page.
+     --->Customize Jenkins
+         Once you unlock Jenkins, customize and prepare the Jenkins environment.
+         1. Click the Install suggested plugins button to have Jenkins automatically install the most frequently used plugins.
+            Selecting the Install suggested plugins option
+Note: If you are an advanced user, clicking the Select plugins to install button allows you to choose which plugins to install.
+         2. After Jenkins finishes installing the plugins, enter the required information on the Create First Admin User page. Click Save and Continue to proceed.
+            Adding a new administrator user
+         3. On the Instance Configuration page, confirm the port number you want Jenkins to use and click Save and Finish to finish the initial customization.
+            Verifying the port number for Jenkins
+         4. Click the Start using Jenkins button to move to the Jenkins dashboard.
+            Opening the Jenkins dashboard
+         5. Using the Jenkins dashboard, click Create a job to build your first Jenkins software project.
