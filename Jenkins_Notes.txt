@@ -1,5 +1,28 @@
-
-Introduction
+---->JENKINS:
+     A continuous intergration server which manages and control process such as plan,code,build,test,depoly,operate and monitor in DevOps environment.
+             PLAN                            DEPLOY
+               |                               |
+             CODE                            OPERATE
+               |                               |
+             BUILD                           MONITOR
+               |
+              TEST
+---> Why Jenkins is so popular:
+      * Open source
+      * Good plugins support
+      * Good community support
+      * Fast and reliable
+      * Good OS support
+      * Scrpited builds.
+---> Features of jenkiins:
+      * Easy installation process.
+      * Provides advanance security
+      * Optimized performs 
+      * Upgrades are easily available
+      * Lightweight container support
+      * Distributed management
+   
+---> Installation:
 
 * Jenkins is an open-source automation server developers can use to automate building, testing, and deploying applications. 
 * It is available on a variety of systems, including Windows, Linux, Unix, and macOS.
