@@ -1,4 +1,5 @@
 ----> Traditional Integration?
+                     The traditional approach is to manually install these tools on bare metal boxes or virtual machines and configuring them to talk to each other.Steps for traditional DevOps infrastructure. Git/Gerrit, Jenkins, JIRA is installed on single or multiple machines.
          
 --> Problems with traditional integration:
    * Difficult to implement all the details that have changed
