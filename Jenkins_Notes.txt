@@ -83,7 +83,12 @@ Note: If you are an advanced user, clicking the Select plugins to install button
          4. Click the Start using Jenkins button to move to the Jenkins dashboard.
             Opening the Jenkins dashboard
          5. Using the Jenkins dashboard, click Create a job to build your first Jenkins software project.
-    
+     ---> How to run jenkins program?
+   * Click on Itemname
+   * Enter Item name
+   * Select freestyle project
+   * Build now
+   * Console output
          
          
          
